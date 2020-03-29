@@ -1,0 +1,10 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+
+  <van-field
+    value="{{ value }}"
+    placeholder="请输入用户名"
+    border="{{ false }}"
+    
+  />
+  <van-button native-type="submit">提交</van-button>
+</form>

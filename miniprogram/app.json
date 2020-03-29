@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/my/my",
+    "pages/home/home",
+    "pages/notouch/notouch",
+    
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    "pages/help/help",
+    "pages/cus_contact/cus_contact",
+    "pages/help/fankui/fankui"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "我的",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+    "tabBar": {
+      "color": "#7A7E83",
+      "selectedColor": "green",
+      "borderStyle": "black",
+      "backgroundColor": "#fff",
+      "list": [
+        {
+          "pagePath": "pages/home/home",
+          "iconPath": "images/home1.png",
+          "selectedIconPath": "images/home2.png",
+          "text": "首页"
+        },
+        {
+          "pagePath": "pages/notouch/notouch",
+          "iconPath": "images/notouch1.png",
+          "selectedIconPath": "images/notouch2.png",
+          "text": "无接触"
+        },
+        {
+          "pagePath": "pages/my/my",
+          "iconPath": "images/my1.png",
+          "selectedIconPath": "images/my2.png",
+          "text": "我的"
+        }
+      ]
+    },
+  
+  "usingComponents": {
+    "van-button": "@vant/weapp/button",
+    "van-cell": "@vant/weapp/cell",
+    "van-cell-group": "@vant/weapp/cell-group",
+    "van-notice-bar": "@vant/weapp/notice-bar",
+    "van-field": "@vant/weapp/field"
+  }
+  
+}

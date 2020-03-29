@@ -1,0 +1,9 @@
+<text>hello,world</text>
+<van-button type="primary" open-type="getUserInfo" bind:getuserinfo="onInfo">获取用户信息</van-button>
+<van-cell-group>
+  <van-cell title="帮助与反馈" value=">" link-type="navigateTo"
+  url="/pages/help/help"/>
+  <van-cell title="联系客服" value=">" label="描述信息" link-type="navigateTo"
+  url="/pages/cus_contact/cus_contact"/>
+</van-cell-group>
+<button open-type="contact">客服</button>  
